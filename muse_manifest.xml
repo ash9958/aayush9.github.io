@@ -1,57 +1,57 @@
-<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="aayush9.github.io" resolutions="1x" timestamp="1479081142383">
+<manifest alg="2" build="2015.2.0.352" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="aayush9.github.io" resolutions="1x" timestamp="1479140213483">
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
-    <file name="master_a-master.css" crc="229636290" ref="contact:index:resume:skills:about"/>
-    <file name="nomq_preview_master_a-master.css" crc="4263248231" ref="contact:index:resume:skills:about"/>
-    <file name="contact.css" crc="4230684694" ref="contact"/>
-    <file name="nomq_contact.css" crc="6594654" ref="contact"/>
-    <file name="iefonts_contact.css" crc="3824530138" ref="contact"/>
-    <file name="index.css" crc="3886699825" ref="index"/>
-    <file name="nomq_index.css" crc="4006754107" ref="index"/>
-    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
-    <file name="resume.css" crc="4074957759" ref="resume"/>
-    <file name="nomq_resume.css" crc="4292680963" ref="resume"/>
-    <file name="iefonts_resume.css" crc="3824530138" ref="resume"/>
-    <file name="skills.css" crc="191200661" ref="skills"/>
-    <file name="nomq_skills.css" crc="335080780" ref="skills"/>
-    <file name="iefonts_skills.css" crc="3824530138" ref="skills"/>
-    <file name="about.css" crc="4144345274" ref="about"/>
-    <file name="nomq_about.css" crc="226226645" ref="about"/>
+    <file name="master_a-master.css" crc="4025712123" ref="about:résumé:index:contact:skills"/>
+    <file name="nomq_preview_master_a-master.css" crc="4263248231" ref="about:résumé:index:contact:skills"/>
+    <file name="about.css" crc="4249356935" ref="about"/>
+    <file name="nomq_about.css" crc="232264143" ref="about"/>
     <file name="iefonts_about.css" crc="3824530138" ref="about"/>
+    <file name="r_sum_.css" crc="192876471" ref="résumé"/>
+    <file name="nomq_r_sum_.css" crc="280479181" ref="résumé"/>
+    <file name="iefonts_r_sum_.css" crc="3824530138" ref="résumé"/>
+    <file name="index.css" crc="4117225816" ref="index"/>
+    <file name="nomq_index.css" crc="190687417" ref="index"/>
+    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
+    <file name="contact.css" crc="55560083" ref="contact"/>
+    <file name="nomq_contact.css" crc="529778227" ref="contact"/>
+    <file name="iefonts_contact.css" crc="3824530138" ref="contact"/>
+    <file name="skills.css" crc="4069188122" ref="skills"/>
+    <file name="nomq_skills.css" crc="3935221177" ref="skills"/>
+    <file name="iefonts_skills.css" crc="3824530138" ref="skills"/>
   </folder>
   <folder name="assets">
     <file name="cv.pdf" crc="192744702" seo="true" mt="1478792462000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="312386352" ref="index:about:resume:skills:contact"/>
-    <file name="museutils.js" crc="4155826306" ref="index:about:resume:skills:contact"/>
-    <file name="whatinput.js" crc="86476730" ref="index:about:resume:skills:contact"/>
-    <file name="museconfig.js" crc="483509463" ref="index:about:resume:skills:contact"/>
-    <file name="webpro.js" crc="4078243563" ref="index:about:resume:skills:contact"/>
-    <file name="musewpslideshow.js" crc="4115829919" ref="index:about:resume:skills:contact"/>
-    <file name="jquery.museoverlay.js" crc="3936724022" ref="index:about:resume:skills:contact"/>
-    <file name="touchswipe.js" crc="157639107" ref="index:about:resume:skills:contact"/>
-    <file name="pie.js" crc="3827607177" ref="index:about:resume:skills:contact"/>
-    <file name="jquery.musemenu.js" crc="3765356681" ref="index:about:resume:skills:contact"/>
-    <file name="jquery.watch.js" crc="117772946" ref="index:about:resume:skills:contact"/>
+    <file name="jquery-1.8.3.min.js" crc="312386352" ref="index:about:résumé:skills:contact"/>
+    <file name="museutils.js" crc="4155826306" ref="index:about:résumé:skills:contact"/>
+    <file name="whatinput.js" crc="86476730" ref="index:about:résumé:skills:contact"/>
+    <file name="museconfig.js" crc="483509463" ref="index:about:résumé:skills:contact"/>
+    <file name="webpro.js" crc="4078243563" ref="index:about:résumé:skills:contact"/>
+    <file name="musewpslideshow.js" crc="4115829919" ref="index:about:résumé:skills:contact"/>
+    <file name="jquery.museoverlay.js" crc="3936724022" ref="index:about:résumé:skills:contact"/>
+    <file name="touchswipe.js" crc="157639107" ref="index:about:résumé:skills:contact"/>
+    <file name="pie.js" crc="3827607177" ref="index:about:résumé:skills:contact"/>
+    <file name="jquery.musemenu.js" crc="3765356681" ref="index:about:résumé:skills:contact"/>
+    <file name="jquery.watch.js" crc="117772946" ref="index:about:résumé:skills:contact"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4034513494" ref="index:about:skills"/>
     <file name="form_check.php" crc="474517188" ref="index"/>
     <file name="form_throttle.php" crc="495784356" ref="index"/>
     <file name="form_process.php" crc="4149049960" ref="index"/>
     <file name="form-u1090.php" crc="77041763" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:about:resume:skills:contact"/>
-    <file name="jquery.museresponsive.js" crc="439107114" ref="index:about:resume:skills:contact"/>
-    <file name="require.js" crc="228336483" ref="index:about:resume:skills:contact"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:about:résumé:skills:contact"/>
+    <file name="jquery.museresponsive.js" crc="439107114" ref="index:about:résumé:skills:contact"/>
+    <file name="require.js" crc="228336483" ref="index:about:résumé:skills:contact"/>
   </folder>
   <folder name="images">
     <file name="home-favicon.ico" crc="30846323" ref="index"/>
-    <file name="bg.jpg" crc="4168721197" seo="true" ref="index:about:resume:skills:contact"/>
-    <file name="blank.gif" crc="4208392903" ref="index:about:resume:skills:contact"/>
-    <file name="bg2.jpg" crc="296548139" seo="true" ref="index:about:resume:skills:contact"/>
-    <file name="bg3.jpg" crc="4000702122" seo="true" ref="index:about:resume:skills:contact"/>
-    <file name="bg4.jpg" crc="4036385238" seo="true" ref="index:about:resume:skills:contact"/>
-    <file name="bg5.jpg" crc="3294843" seo="true" ref="index:about:resume:skills:contact"/>
-    <file name="loading.gif" crc="3815509949" ref="index:about:resume:skills:contact"/>
+    <file name="bg4new.jpg" crc="3997233427" seo="true" ref="index:about:résumé:skills:contact"/>
+    <file name="blank.gif" crc="4208392903" ref="index:about:résumé:skills:contact"/>
+    <file name="bgnew.jpg" crc="3871334678" seo="true" ref="index:about:résumé:skills:contact"/>
+    <file name="bg2new.jpg" crc="203853888" seo="true" ref="index:about:résumé:skills:contact"/>
+    <file name="bg3new.jpg" crc="489996085" seo="true" ref="index:about:résumé:skills:contact"/>
+    <file name="bg5new.jpg" crc="3979143707" seo="true" ref="index:about:résumé:skills:contact"/>
+    <file name="loading.gif" crc="3815509949" ref="index:about:résumé:skills:contact"/>
     <file name="soft slit separator.png" crc="4104113101" seo="true" ref="index"/>
     <file name="wallup-96630.jpg" crc="417894595" ref="index"/>
     <file name="design.png" crc="388074366" ref="index"/>
@@ -62,7 +62,7 @@
     <file name="u1096-17-r.png" crc="436336273" ref="index"/>
     <file name="u1096-17-m.png" crc="132136981" ref="index"/>
     <file name="u1096-17-fs.png" crc="204805598" ref="index"/>
-    <file name="soft slit separator-crop-u1276.png" crc="4158284394" ref="index"/>
+    <file name="soft slit separator-crop-u1276.png" crc="4132056329" ref="index"/>
     <file name="design-u1303-fr.png" crc="338291961" ref="index"/>
     <file name="coffee-u1318-fr.png" crc="120360760" ref="index"/>
     <file name="code-u1319-fr.png" crc="24043342" ref="index"/>
@@ -70,7 +70,7 @@
     <file name="u1096-17-r2.png" crc="436336273" ref="index"/>
     <file name="u1096-17-m2.png" crc="132136981" ref="index"/>
     <file name="u1096-17-fs2.png" crc="204805598" ref="index"/>
-    <file name="soft slit separator-crop-u12762.png" crc="4055910719" ref="index"/>
+    <file name="soft slit separator-crop-u12762.png" crc="3931807849" ref="index"/>
     <file name="design-u1303-fr2.png" crc="432556882" ref="index"/>
     <file name="coffee-u1318-fr2.png" crc="3912802596" ref="index"/>
     <file name="code-u1319-fr2.png" crc="374778058" ref="index"/>
@@ -78,20 +78,44 @@
     <file name="u1096-17-r3.png" crc="436336273" ref="index"/>
     <file name="u1096-17-m3.png" crc="132136981" ref="index"/>
     <file name="u1096-17-fs3.png" crc="204805598" ref="index"/>
-    <file name="soft slit separator-crop-u12763.png" crc="384173834" ref="index"/>
+    <file name="soft slit separator-crop-u12763.png" crc="4084967008" ref="index"/>
     <file name="design-u1303-fr3.png" crc="318578639" ref="index"/>
     <file name="code-u1319-fr3.png" crc="60858407" ref="index"/>
     <file name="u1096-174.png" crc="407554510" ref="index"/>
     <file name="u1096-17-r4.png" crc="436336273" ref="index"/>
     <file name="u1096-17-m4.png" crc="132136981" ref="index"/>
     <file name="u1096-17-fs4.png" crc="204805598" ref="index"/>
-    <file name="soft slit separator-crop-u12764.png" crc="4224157243" ref="index"/>
+    <file name="soft slit separator-crop-u12764.png" crc="315216439" ref="index"/>
     <file name="coffee-u1318-fr3.png" crc="4159129643" ref="index"/>
     <file name="u1096-175.png" crc="407554510" ref="index"/>
     <file name="u1096-17-r5.png" crc="436336273" ref="index"/>
     <file name="u1096-17-m5.png" crc="132136981" ref="index"/>
     <file name="u1096-17-fs5.png" crc="204805598" ref="index"/>
-    <file name="about-favicon.ico" crc="30846323" ref="about"/>
+    <file name="soft slit separator-crop-u12765.png" crc="37379273" ref="index"/>
+    <file name="u1096-176.png" crc="407554510" ref="index"/>
+    <file name="u1096-17-r6.png" crc="436336273" ref="index"/>
+    <file name="u1096-17-m6.png" crc="132136981" ref="index"/>
+    <file name="u1096-17-fs6.png" crc="204805598" ref="index"/>
+    <file name="soft slit separator-crop-u12766.png" crc="362206768" ref="index"/>
+    <file name="u1096-177.png" crc="407554510" ref="index"/>
+    <file name="u1096-17-r7.png" crc="436336273" ref="index"/>
+    <file name="u1096-17-m7.png" crc="132136981" ref="index"/>
+    <file name="u1096-17-fs7.png" crc="204805598" ref="index"/>
+    <file name="soft slit separator-crop-u12767.png" crc="4229344829" ref="index"/>
+    <file name="u1096-178.png" crc="407554510" ref="index"/>
+    <file name="u1096-17-r8.png" crc="436336273" ref="index"/>
+    <file name="u1096-17-m8.png" crc="132136981" ref="index"/>
+    <file name="u1096-17-fs8.png" crc="204805598" ref="index"/>
+    <file name="soft slit separator-crop-u12768.png" crc="4152268814" ref="index"/>
+    <file name="u1096-179.png" crc="407554510" ref="index"/>
+    <file name="u1096-17-r9.png" crc="436336273" ref="index"/>
+    <file name="u1096-17-m9.png" crc="132136981" ref="index"/>
+    <file name="u1096-17-fs9.png" crc="204805598" ref="index"/>
+    <file name="soft slit separator-crop-u12769.png" crc="4142390123" ref="index"/>
+    <file name="u1096-1710.png" crc="407554510" ref="index"/>
+    <file name="u1096-17-r10.png" crc="436336273" ref="index"/>
+    <file name="u1096-17-m10.png" crc="132136981" ref="index"/>
+    <file name="u1096-17-fs10.png" crc="204805598" ref="index"/>
     <file name="pic.png" crc="362267608" ref="about"/>
     <file name="wood board (0-00-00-00)-u1397.png" crc="3959445233" ref="about"/>
     <file name="elegant separator 3.png" crc="3833348569" seo="true" ref="about"/>
@@ -106,15 +130,25 @@
     <file name="wood board (0-00-00-00)-u13978.png" crc="3791837964" ref="about"/>
     <file name="pic-u1377-fr3.png" crc="4091351057" ref="about"/>
     <file name="wood board (0-00-00-00)-u13979.png" crc="4072400363" ref="about"/>
-    <file name="pic-u1377-fr4.png" crc="4049962204" ref="about"/>
-    <file name="wood board (0-00-00-00)-u139710.png" crc="351558429" ref="about"/>
-    <file name="resume-favicon.ico" crc="30846323" ref="resume"/>
-    <file name="clip-u106933.png" crc="366784330" ref="resume"/>
-    <file name="clip-u1069332.png" crc="512390806" ref="resume"/>
-    <file name="clip-u1069333.png" crc="512390806" ref="resume"/>
-    <file name="clip-u1069334.png" crc="512390806" ref="resume"/>
-    <file name="clip-u1069335.png" crc="512390806" ref="resume"/>
-    <file name="clip-u1069336.png" crc="4010782849" ref="resume"/>
+    <file name="pic-u1377-fr4.png" crc="3885053679" ref="about"/>
+    <file name="wood board (0-00-00-00)-u139710.png" crc="4158064865" ref="about"/>
+    <file name="pic-u1377-fr5.png" crc="4103294664" ref="about"/>
+    <file name="wood board (0-00-00-00)-u139711.png" crc="97053027" ref="about"/>
+    <file name="pic-u1377-fr6.png" crc="91718951" ref="about"/>
+    <file name="wood board (0-00-00-00)-u139712.png" crc="256604089" ref="about"/>
+    <file name="pic-u1377-fr7.png" crc="517875111" ref="about"/>
+    <file name="wood board (0-00-00-00)-u139713.png" crc="4275303987" ref="about"/>
+    <file name="pic-u1377-fr8.png" crc="4139307342" ref="about"/>
+    <file name="wood board (0-00-00-00)-u139714.png" crc="322158208" ref="about"/>
+    <file name="résumé-favicon.ico" crc="30846323" ref="résumé"/>
+    <file name="clip-u106933.png" crc="366784330" ref="résumé"/>
+    <file name="clip-u1069332.png" crc="512390806" ref="résumé"/>
+    <file name="clip-u1069333.png" crc="512390806" ref="résumé"/>
+    <file name="clip-u1069334.png" crc="512390806" ref="résumé"/>
+    <file name="clip-u1069335.png" crc="512390806" ref="résumé"/>
+    <file name="clip-u1069336.png" crc="4010782849" ref="résumé"/>
+    <file name="clip-u1069337.png" crc="4213639947" ref="résumé"/>
+    <file name="clip-u1069338.png" crc="3908129016" ref="résumé"/>
     <file name="skills-favicon.ico" crc="30846323" ref="skills"/>
     <file name="designblur.jpg" crc="3863561898" ref="skills"/>
     <file name="pr.jpg" crc="66011110" ref="skills"/>
@@ -199,6 +233,8 @@
     <file name="ai-u73397-r-fr2.png" crc="4094292374" ref="skills"/>
     <file name="fcp-u73415-r-fr2.png" crc="4094292374" ref="skills"/>
     <file name="webd-u73375-r-fr2.png" crc="4094292374" ref="skills"/>
+    <file name="ger-u78314-r-fr2.png" crc="460861036" ref="skills"/>
+    <file name="langblur-u74599-fr2.jpg" crc="386851160" ref="skills"/>
     <file name="contact-favicon.ico" crc="30846323" ref="contact"/>
     <file name="linkedin-logo-png-2026.png" crc="17196174" seo="true" ref="contact"/>
     <file name="email-icon-980dd3b205e9f091d637bfdebd14c578-crop-u8472.png" crc="3995041417" ref="contact"/>
@@ -236,10 +272,22 @@
     <file name="email-icon-980dd3b205e9f091d637bfdebd14c578-crop-u847211.png" crc="3995041417" ref="contact"/>
     <file name="facebook-logo-png-18-crop-u848011.png" crc="3892956701" ref="contact"/>
     <file name="google-plus-logo-1254-crop-u849411.png" crc="4130010377" ref="contact"/>
+    <file name="email-icon-980dd3b205e9f091d637bfdebd14c578-crop-u847212.png" crc="3995041417" ref="contact"/>
+    <file name="facebook-logo-png-18-crop-u848012.png" crc="3892956701" ref="contact"/>
+    <file name="google-plus-logo-1254-crop-u849412.png" crc="4130010377" ref="contact"/>
+    <file name="email-icon-980dd3b205e9f091d637bfdebd14c578-crop-u847213.png" crc="3995041417" ref="contact"/>
+    <file name="facebook-logo-png-18-crop-u848013.png" crc="3892956701" ref="contact"/>
+    <file name="google-plus-logo-1254-crop-u849413.png" crc="4130010377" ref="contact"/>
+    <file name="email-icon-980dd3b205e9f091d637bfdebd14c578-crop-u847214.png" crc="3995041417" ref="contact"/>
+    <file name="facebook-logo-png-18-crop-u848014.png" crc="3892956701" ref="contact"/>
+    <file name="google-plus-logo-1254-crop-u849414.png" crc="4130010377" ref="contact"/>
+    <file name="email-icon-980dd3b205e9f091d637bfdebd14c578-crop-u847215.png" crc="3995041417" ref="contact"/>
+    <file name="facebook-logo-png-18-crop-u848015.png" crc="3892956701" ref="contact"/>
+    <file name="google-plus-logo-1254-crop-u849415.png" crc="4130010377" ref="contact"/>
   </folder>
-  <file name="index.html" crc="476665711" seo="true" mt="1479076306603" redirect="true"/>
-  <file name="about.html" crc="55303566" seo="true" mt="1479076306605" redirect="true"/>
-  <file name="resume.html" crc="3841937003" seo="true" mt="1479077457916" redirect="true"/>
-  <file name="skills.html" crc="3916875264" seo="true" mt="1479080957514" redirect="true"/>
-  <file name="contact.html" crc="4066043717" seo="true" mt="1479076306641" redirect="true"/>
+  <file name="index.html" crc="457069769" seo="true" mt="1479139724465" redirect="true"/>
+  <file name="about.html" crc="462237949" seo="true" mt="1479139724465" redirect="true"/>
+  <file name="résumé.html" crc="326601902" seo="true" mt="1479139724465" redirect="true"/>
+  <file name="skills.html" crc="371305226" seo="true" mt="1479139932359" redirect="true"/>
+  <file name="contact.html" crc="4167276087" seo="true" mt="1479139724465" redirect="true"/>
 </manifest>
