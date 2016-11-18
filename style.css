@@ -561,7 +561,7 @@ footer > p {
 		width:100%;
 	}
 }
-@media screen and (max-width:34.99em){
+@media screen and (max-width:34.99em) and (min-width: 29em){
 	.about{
 		padding:0px 30px;
 		height: 700px;
@@ -607,6 +607,53 @@ footer > p {
 		width:100%;
 	}
 }
+@media screen and (max-width:28.99em){
+	.about{
+		padding:0px 10px;
+		height: 600px;
+	}
+	#laptop{
+		margin-top: -70px;
+		width:20em;
+		height: auto;
+		float:none;
+		display:block;
+		position:static;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#board{
+		display:block;
+		margin-top: 10px;
+		width:20em;
+		height: auto;
+		float:none;
+		position: static;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.anintro{font-size: 28px;
+		margin-top: 54px;
+		margin-bottom: -20px;
+	}
+	.boardtext{
+		margin-top:-346px;
+		display: block;
+		width:27em;
+		text-align: center;
+		height: auto;
+		position: relative;
+		float:none;
+		font-size: 11px;
+		right:0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.boardtext img{
+		width:100%;
+	}
+}
+
 .cv{
 	background-color: #ecf0f1;
 	width:100%;
