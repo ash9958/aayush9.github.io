@@ -2,55 +2,21 @@
 <html>
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="images/favicon.ico">
 		<title>Skills | Aayush Aggarwal</title>
 	</head>
 	<body>
-		<section class="navtop">
-			<ul>
-				<li><a href="index.html">Home</b></a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="resume.html">R&eacute;sum&eacute;</a></li>
-				<li><a href="skills.html" class="active">Skills</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</section>
 		<section class="slideshow">
 		<h2 class="name">AAYUSH AGGARWAL</h2>
-		  <div class="slide fade">
-		      <img src="images/slideshow/1.jpg" name="slide">
-		  </div>
-		  <div class="slide fade">
-		      <img src="images/slideshow/2.jpg" name="slide">
-		  </div>
-		  <div class="slide fade">
-		      <img src="images/slideshow/3.jpg" name="slide">
-		  </div>
-		  		  <div class="slide fade">
-		      <img src="images/slideshow/4.jpg" name="slide">
-		  </div>
-		  		  <div class="slide fade">
-		      <img src="images/slideshow/5.jpg" name="slide">
-		  </div>
-			<script>
-			showSlides();
-			function showSlides() {
-				var i;
-			    var slides = document.getElementsByClassName("slide");
-			    slideIndex=Math.floor((Math.random() * 5) + 1);
-			    for (i = 0; i < slides.length; i++) {
-			       slides[i].style.display = "none";
-			    }
-			    if (slideIndex> slides.length) {slideIndex = 1}
-			    slides[slideIndex-1].style.display = "block";
-
-			    setTimeout(showSlides, 5000);
-			}
-			</script>
-			<section class="nav">
+		  <div class="slide fade"><img src="images/slideshow/1.jpg" name="slide"></div>
+		  <div class="slide fade"><img src="images/slideshow/2.jpg" name="slide"></div>
+		  <div class="slide fade"><img src="images/slideshow/3.jpg" name="slide"></div>
+		  <div class="slide fade"><img src="images/slideshow/4.jpg" name="slide"></div>
+		  <div class="slide fade"><img src="images/slideshow/5.jpg" name="slide"></div>
+		  <script type="text/javascript" src="script.js"></script>
+			<section class="nav" id="n1">
 			<ul>
 				<li><a href="index.html">Home</b></a></li>
 				<li><a href="about.html">About</a></li>
@@ -60,127 +26,127 @@
 			</ul>
 			</section>
 		</section>
-		<section class="skillcon design" style="background:url(images/Designblur.jpg); background-size: cover;background-position: 50% 50%;">
+		<section class="skillcon design" style="background: linear-gradient(230deg,#8e44ad,#d35400,#bdc3c7,#27ae60,#16a085,#c0392b)">
 			<h1> Design &amp; Creativity</h1>
 			<div id="thing">
-			<div class="icons" style="background-color:#f1c40f">
-				<p><b>Adobe<br>After Effects</b><br><br><br>Experienced</p>
-				<img src="images/icons/ae.jpg">
-			</div>
-			<div class="icons" style="background-color:#f1c40f">
-				<p><b>Adobe<br>Premiere Pro</b><br><br><br>Experienced</p>
-				<img src="images/icons/pr.jpg">
-			</div>
-			<div class="icons" style="background-color:#f1c40f">
-				<p><b>Adobe<br>Illustrator</b><br><br><br>Fairly Good</p>
-				<img src="images/icons/ai.jpg">
-			</div>	
-			<div class="icons" style="background-color:#f1c40f">
-				<p><b>Sony<br>Vegas</b><br><br><br>Fairly Good</p>
-				<img src="images/icons/vegas.jpg">
-			</div>		
-			<div class="icons" style="background-color:#f1c40f">
-				<p><b>Adobe<br>PhotoShop</b><br><br><br>Fairly Good</p>
-				<img src="images/icons/ps.jpg">
-			</div>
-			<div class="icons" style="background-color:#f1c40f">
-				<p><b>Apple<br>Final Cut Pro</b><br><br><br>Fairly Good</p>
-				<img src="images/icons/fcp.jpg">
-			</div>
-			<div class="icons" style="background-color:#f1c40f">
-				<p><b>Image-Line<br>FL Studio</b><br><br><br>Beginner</p>
-				<img src="images/icons/fl.jpg">
-			</div>
-			<div class="icons" style="background-color:#f1c40f">
-				<p><b>Blender<br></b><br><br><br>Experienced</p>
-				<img src="images/icons/bl.jpg">
-			</div>
-			<div class="icons" style="background-color:#f1c40f">
-				<p><b>Maxon<br>Cinema 4D</b><br><br><br>Fairly Good</p>
-				<img src="images/icons/c4d.jpg">
-			</div>
-			<div class="icons" style="background-color:#f1c40f">
-				<p><b>Autodesk<br>Maya</b><br><br><br>Novice</p>
-				<img src="images/icons/maya.jpg">
-			</div>
-			<div class="icons" style="background-color:#f1c40f">
-				<p><b>Autodesk<br>3Ds Max</b><br><br><br>Novice</p>
-				<img src="images/icons/3ds.jpg">
-			</div>
-			<div class="icons" style="background-color:#f1c40f">
-				<p><b>Web Design on<br>Adobe Muse</b><br><br><br>Experienced</p>
-				<img src="images/icons/webd.jpg">
-			</div>
+				<div class="icons" style="background-color:#f1c40f">
+					<p><b>Adobe<br>After Effects</b><br><br><br>Experienced</p>
+					<img src="images/icons/ae.jpg">
+				</div>
+				<div class="icons" style="background-color:#f1c40f">
+					<p><b>Adobe<br>Premiere Pro</b><br><br><br>Experienced</p>
+					<img src="images/icons/pr.jpg">
+				</div>
+				<div class="icons" style="background-color:#f1c40f">
+					<p><b>Adobe<br>Illustrator</b><br><br><br>Fairly Good</p>
+					<img src="images/icons/ai.jpg">
+				</div>	
+				<div class="icons" style="background-color:#f1c40f">
+					<p><b>Sony<br>Vegas</b><br><br><br>Fairly Good</p>
+					<img src="images/icons/vegas.jpg">
+				</div>		
+				<div class="icons" style="background-color:#f1c40f">
+					<p><b>Adobe<br>PhotoShop</b><br><br><br>Fairly Good</p>
+					<img src="images/icons/ps.jpg">
+				</div>
+				<div class="icons" style="background-color:#f1c40f">
+					<p><b>Apple<br>Final Cut Pro</b><br><br><br>Fairly Good</p>
+					<img src="images/icons/fcp.jpg">
+				</div>
+				<div class="icons" style="background-color:#f1c40f">
+					<p><b>Image-Line<br>FL Studio</b><br><br><br>Beginner</p>
+					<img src="images/icons/fl.jpg">
+				</div>
+				<div class="icons" style="background-color:#f1c40f">
+					<p><b>Blender<br></b><br><br><br>Experienced</p>
+					<img src="images/icons/bl.jpg">
+				</div>
+				<div class="icons" style="background-color:#f1c40f">
+					<p><b>Maxon<br>Cinema 4D</b><br><br><br>Fairly Good</p>
+					<img src="images/icons/c4d.jpg">
+				</div>
+				<div class="icons" style="background-color:#f1c40f">
+					<p><b>Autodesk<br>Maya</b><br><br><br>Novice</p>
+					<img src="images/icons/maya.jpg">
+				</div>
+				<div class="icons" style="background-color:#f1c40f">
+					<p><b>Autodesk<br>3Ds Max</b><br><br><br>Novice</p>
+					<img src="images/icons/3ds.jpg">
+				</div>
+				<div class="icons" style="background-color:#f1c40f">
+					<p><b>Web Design on<br>Adobe Muse</b><br><br><br>Experienced</p>
+					<img src="images/icons/webd.jpg">
+				</div>
 			</div>
 		</section>
-		<section class="skillcon prog" style="background:url(images/Codeblur.jpg); background-size: cover;background-position: 50% 50%;">
+		<section class="skillcon prog" style="background: linear-gradient(140deg,#7f8c8d,#d35400,#c0392b,#2c3e50,#16a085,#2980b9)">
 			<h1>Programming</h1>
 			<div id="thing">
-			<div class="icons" style="background-color:#bdc3c7">
-				<p><b>C++<br></b><br><br><br>Experienced</p>
-				<img src="images/icons/cpp.jpg">
-			</div>
-			<div class="icons" style="background-color:#bdc3c7">
-				<p><b>Objective-C<br></b><br><br><br>Novice</p>
-				<img src="images/icons/oc.jpg">
-			</div>
-			<div class="icons" style="background-color:#bdc3c7">
-				<p><b>Python<br></b><br><br><br>Experienced</p>
-				<img src="images/icons/py.jpg">
-			</div>
-			<div class="icons" style="background-color:#bdc3c7">
-				<p><b>Java<br></b><br><br><br>Intermedate</p>
-				<img src="images/icons/java.jpg">
-			</div>
-			<div class="icons" style="background-color:#bdc3c7">
-				<p><b>Latex<br></b><br><br><br>Intermediate</p>
-				<img src="images/icons/latex.jpg">
-			</div>
-			<div class="icons" style="background-color:#bdc3c7">
-				<p><b>Bash<br></b><br><br><br>Experienced</p>
-				<img src="images/icons/bash.jpg">
-			</div>
-			<div class="icons" style="background-color:#bdc3c7">
-				<p><b>HTML &amp; CSS<br></b><br><br><br>Experienced</p>
-				<img src="images/icons/html.jpg">
-			</div>
-			<div class="icons" style="background-color:#bdc3c7">
-				<p><b>JavaScript<br></b><br><br><br>Intermediate</p>
-				<img src="images/icons/js.jpg">
-			</div>
-			<div class="icons" style="background-color:#bdc3c7">
-				<p><b>MySQL<br></b><br><br><br>Experienced</p>
-				<img src="images/icons/sql.jpg">
-			</div>
-			<div class="icons" style="background-color:#bdc3c7">
-				<p><b>PHP<br></b><br><br><br>Novice</p>
-				<img src="images/icons/php.jpg">
-			</div>
-			<div class="icons" style="background-color:#bdc3c7">
-				<p><b>Apple Swift<br></b><br><br><br>Intermediate</p>
-				<img src="images/icons/swift.jpg">
-			</div>
-			<div class="icons" style="background-color:#bdc3c7">
-				<p><b>Android<br>Development</b><br><br><br>Intermediate</p>
-				<img src="images/icons/and.jpg">
-			</div>
+				<div class="icons" style="background-color:#bdc3c7">
+					<p><b>C++<br></b><br><br><br>Experienced</p>
+					<img src="images/icons/cpp.jpg">
+				</div>
+				<div class="icons" style="background-color:#bdc3c7">
+					<p><b>Objective-C<br></b><br><br><br>Novice</p>
+					<img src="images/icons/oc.jpg">
+				</div>
+				<div class="icons" style="background-color:#bdc3c7">
+					<p><b>Python<br></b><br><br><br>Experienced</p>
+					<img src="images/icons/py.jpg">
+				</div>
+				<div class="icons" style="background-color:#bdc3c7">
+					<p><b>Java<br></b><br><br><br>Intermedate</p>
+					<img src="images/icons/java.jpg">
+				</div>
+				<div class="icons" style="background-color:#bdc3c7">
+					<p><b>Latex<br></b><br><br><br>Intermediate</p>
+					<img src="images/icons/latex.jpg">
+				</div>
+				<div class="icons" style="background-color:#bdc3c7">
+					<p><b>Bash<br></b><br><br><br>Experienced</p>
+					<img src="images/icons/bash.jpg">
+				</div>
+				<div class="icons" style="background-color:#bdc3c7">
+					<p><b>HTML &amp; CSS<br></b><br><br><br>Experienced</p>
+					<img src="images/icons/html.jpg">
+				</div>
+				<div class="icons" style="background-color:#bdc3c7">
+					<p><b>JavaScript<br></b><br><br><br>Intermediate</p>
+					<img src="images/icons/js.jpg">
+				</div>
+				<div class="icons" style="background-color:#bdc3c7">
+					<p><b>MySQL<br></b><br><br><br>Experienced</p>
+					<img src="images/icons/sql.jpg">
+				</div>
+				<div class="icons" style="background-color:#bdc3c7">
+					<p><b>PHP<br></b><br><br><br>Novice</p>
+					<img src="images/icons/php.jpg">
+				</div>
+				<div class="icons" style="background-color:#bdc3c7">
+					<p><b>Apple Swift<br></b><br><br><br>Intermediate</p>
+					<img src="images/icons/swift.jpg">
+				</div>
+				<div class="icons" style="background-color:#bdc3c7">
+					<p><b>Android<br>Development</b><br><br><br>Intermediate</p>
+					<img src="images/icons/and.jpg">
+				</div>
 			</div>
 		</section>
-		<section class="skillcon lang" style="background:url(images/langblur.jpg); background-size: cover;background-position: 50% 50%;">
+		<section class="skillcon lang" style="background: linear-gradient(80deg,#2c3e50,#7f8c8d,#c0392b,#16a085,#d35400)">
 			<h1>Languages</h1>
 			<div id="thing2">
-			<div class="icons" style="background-color:#27ae60; width:492px;margin-top:-1px">
-				<p><b>English<br></b><br><br><br>Native or Bilingual Proficiency</p>
-				<img src="images/icons/eng.jpg">
-			</div>
-			<div class="icons" style="background-color:#27ae60; width:492px;margin-top:-1px">
-				<p><b>Hindi<br></b><br><br><br>Native or Bilingual Proficiency</p>
-				<img src="images/icons/hin.jpg">
-			</div>
-			<div class="icons" style="background-color:#27ae60; width:492px;margin-top:-1px">
-				<p><b>German<br></b><br><br><br>Elementary Proficiency</p>
-				<img src="images/icons/ger.jpg">
-			</div>
+				<div class="icons" style="background-color:#27ae60; width:492px;margin-top:-1px">
+					<p><b>English<br></b><br><br><br>Native or Bilingual Proficiency</p>
+					<img src="images/icons/eng.jpg">
+				</div>
+				<div class="icons" style="background-color:#27ae60; width:492px;margin-top:-1px">
+					<p><b>Hindi<br></b><br><br><br>Native or Bilingual Proficiency</p>
+					<img src="images/icons/hin.jpg">
+				</div>
+				<div class="icons" style="background-color:#27ae60; width:492px;margin-top:-1px">
+					<p><b>German<br></b><br><br><br>Elementary Proficiency</p>
+					<img src="images/icons/ger.jpg">
+				</div>
 			</div>
 		</section>
 		<footer><p>Made with <text style="color: red">&#10084;</text> by aayush9</p></footer>

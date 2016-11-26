@@ -93,6 +93,7 @@ body {
 	height:51px;
 	background-color: rgba(0,0,0,0.5);
 	bottom:0px;
+	z-index:9000;
 }
 ul{
 	display: inline-block;
@@ -726,18 +727,20 @@ footer > p {
 	}
 }
 @media screen and (max-width: 525px){
-	#thing2{width:420px;
+	#thing2{width:320px;
 		height:auto;
 		margin-left: auto;
 		margin-right: auto;
 		object-fit: fill;
 		overflow: hidden;}
 	#thing2 img{
-		width:425px;
-		height:auto;
+		width:325px;
+		height:215px;
+		margin-top:-192px;
 	}
 	#thing2 p{
-		width:425px;
+		font-size: 22px;
+		width:325px;
 		text-align: center;
 	}
 	#thing2 div{

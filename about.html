@@ -9,47 +9,15 @@
 		<title>About | Aayush Aggarwal</title>
 	</head>
 	<body style="background-color: #ecf0f1">
-		<section class="navtop">
-			<ul>
-				<li><a href="index.html">Home</b></a></li>
-				<li><a href="about.html"  class="active">About</a></li>
-				<li><a href="resume.html">R&eacute;sum&eacute;</a></li>
-				<li><a href="skills.html">Skills</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</section>
 		<section class="slideshow">
 		<h2 class="name">AAYUSH AGGARWAL</h2>
-		  <div class="slide fade">
-		      <img src="images/slideshow/1.jpg" name="slide">
-		  </div>
-		  <div class="slide fade">
-		      <img src="images/slideshow/2.jpg" name="slide">
-		  </div>
-		  <div class="slide fade">
-		      <img src="images/slideshow/3.jpg" name="slide">
-		  </div>
-		  		  <div class="slide fade">
-		      <img src="images/slideshow/4.jpg" name="slide">
-		  </div>
-		  		  <div class="slide fade">
-		      <img src="images/slideshow/5.jpg" name="slide">
-		  </div>
-			<script>
-			showSlides();
-			function showSlides() {
-				var i;
-			    var slides = document.getElementsByClassName("slide");
-			    slideIndex=Math.floor((Math.random() * 5) + 1);
-			    for (i = 0; i < slides.length; i++) {
-			       slides[i].style.display = "none";
-			    }
-			    if (slideIndex> slides.length) {slideIndex = 1}
-			    slides[slideIndex-1].style.display = "block";
-			    setTimeout(showSlides, 5000);
-			}
-			</script>
-			<section class="nav">
+		  <div class="slide fade"><img src="images/slideshow/1.jpg" name="slide"></div>
+		  <div class="slide fade"><img src="images/slideshow/2.jpg" name="slide"></div>
+		  <div class="slide fade"><img src="images/slideshow/3.jpg" name="slide"></div>
+		  <div class="slide fade"><img src="images/slideshow/4.jpg" name="slide"></div>
+		  <div class="slide fade"><img src="images/slideshow/5.jpg" name="slide"></div>
+		  <script type="text/javascript" src="script.js"></script>
+			<section class="nav" id="n1">
 			<ul>
 				<li><a href="index.html">Home</b></a></li>
 				<li><a href="about.html"  class="active">About</a></li>

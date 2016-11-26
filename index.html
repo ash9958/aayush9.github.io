@@ -10,46 +10,15 @@
 		<title>Home | Aayush Aggarwal</title>
 	</head>
 	<body>
-		<section class="navtop">
-			<ul>
-				<li><a href="index.html" class="active">Home</b></a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="resume.html">R&eacute;sum&eacute;</a></li>
-				<li><a href="skills.html">Skills</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</section>
 		<section class="slideshow">
 		<h2 class="name">AAYUSH AGGARWAL</h2>
-		  <div class="slide fade">
-		      <img src="images/slideshow/1.jpg" name="slide">
-		  </div>
-		  <div class="slide fade">
-		      <img src="images/slideshow/2.jpg" name="slide">
-		  </div>
-		  <div class="slide fade">
-		      <img src="images/slideshow/3.jpg" name="slide">
-		  </div>
-		  		  <div class="slide fade">
-		      <img src="images/slideshow/4.jpg" name="slide">
-		  </div>
-		  		  <div class="slide fade">
-		      <img src="images/slideshow/5.jpg" name="slide">
-		  </div>
-			<script>
-			showSlides();
-			function showSlides() {
-				var i;
-			    var slides = document.getElementsByClassName("slide");
-			    slideIndex=Math.floor(Math.random() * 5);
-			    for (i = 0; i < slides.length; i++) {
-			       slides[i].style.display = "none";
-			    }
-			    slides[slideIndex].style.display = "block";
-			    setTimeout(showSlides, 5000);
-			}
-			</script>
-			<section class="nav">
+		  <div class="slide fade"><img src="images/slideshow/1.jpg" name="slide"></div>
+		  <div class="slide fade"><img src="images/slideshow/2.jpg" name="slide"></div>
+		  <div class="slide fade"><img src="images/slideshow/3.jpg" name="slide"></div>
+		  <div class="slide fade"><img src="images/slideshow/4.jpg" name="slide"></div>
+		  <div class="slide fade"><img src="images/slideshow/5.jpg" name="slide"></div>
+		  <script type="text/javascript" src="script.js"></script>
+			<section class="nav" id="n1">
 			<ul>
 				<li><a href="index.html" class="active">Home</b></a></li>
 				<li><a href="about.html">About</a></li>
@@ -69,9 +38,9 @@ Feel free to comment about anything you liked/disliked in the feedback tab right
 		<section class="mid" style="box-shadow: 0px 0px 20px 4px;">
 		<img src="images/overview.jpg">
 		<div class="vectors">
-		<img src="images/design.png" id="img1" align=left>
+		<img src="images/design.png" id="img1">
 		<img src="images/coffee.png" id="img2">
-		<img src="images/code.png" id="img3" align=right>
+		<img src="images/code.png" id="img3">
 		</div>
 		</section>
 		<section class="add" style="box-shadow: 0px 0px 20px 4px;">
@@ -95,11 +64,6 @@ Although I am an introvert around strangers, I am way too much of an extrovert t
 				<input type="textarea" placeholder="Comments" name="Comments">
 			</div>
 			<input type="button" value="SUBMIT" onclick="thanks()">
-			<script>
-			function thanks(){
-				alert("Thanks for your feedback!");
-			}
-			</script>
 			</form>
 		</section>
 <footer><p>Made with <text style="color: red">&#10084;</text> by aayush9</p></footer>
