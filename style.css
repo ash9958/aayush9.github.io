@@ -69,23 +69,23 @@ body {
 }
 #s1{
 	background:url("images/slideshow/1.jpg");
-	background-size:contain;
+	background-size:fill;
 }
 #s2{
 	background:url("images/slideshow/2.jpg");
-	background-size:contain;
+	background-size:fill;
 }
 #s3{
 	background:url("images/slideshow/3.jpg");
-	background-size:contain;
+	background-size:fill;
 }
 #s4{
 	background:url("images/slideshow/4.jpg");
-	background-size:contain;
+	background-size:fill;
 }
 #s5{
 	background:url("images/slideshow/5.jpg");
-	background-size:contain;
+	background-size:fill;
 }
 
 @-webkit-keyframes fade {
