@@ -66,6 +66,26 @@ body {
   animation-name: fade;
   animation-duration: 1s ease 0.1s;
 }
+#s1{
+	background:url("images/slideshow/1.jpg");
+	background-size:contain;
+}
+#s2{
+	background:url("images/slideshow/2.jpg");
+	background-size:contain;
+}
+#s3{
+	background:url("images/slideshow/3.jpg");
+	background-size:contain;
+}
+#s4{
+	background:url("images/slideshow/4.jpg");
+	background-size:contain;
+}
+#s5{
+	background:url("images/slideshow/5.jpg");
+	background-size:contain;
+}
 
 @-webkit-keyframes fade {
   from {opacity: .6} 
